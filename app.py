@@ -11,7 +11,7 @@ from langchain.chat_models import ChatOpenAI
 import os
 import time
 
-PDF_FILES = ["Default transitional.pdf", "Fixes.pdf", "Implementing regulation.pdf", "Importers.pdf", "IT changes.pdf", "NCAs.pdf", "Operators.pdf", "Publications office.pdf", "Q&A.pdf", "User manual.pdf"]  # Update these with your actual PDF file names
+PDF_FILES = ["Default transitional.pdf", "Fixes.pdf", "Implementing regulation.pdf", "Importers.pdf", "IT changes.pdf", "NCAs.pdf", "Operators.pdf", "Publications office.pdf", "Q&A.pdf", "User manual.pdf"]
 
 # Custom template to guide llm model
 custom_template = """Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.
